@@ -221,7 +221,7 @@ def getData():
             quit()
             
         #UPDATE THIS WITH EVERY VERSION
-        version = "1.5.3"
+        version = "API"
         #UPDATE THIS WITH EVERY VERSION
         
         endLoad = True
@@ -956,23 +956,23 @@ def run_test(test_command):
     if index == 0:
         for x in range(num):
             singleCore()
-        prettyPrintData()
+        
     elif index == 1:
         for x in range(num):
             multiCore()
-        prettyPrintData()
+        
     elif index == 2:
         for x in range(num):
             multiThread()
-        prettyPrintData()
+        
     elif index == 3:
         for x in range(num):
             fullCPUTest()
-        prettyPrintData()
+        
     elif index == 4:
         for x in range(num):
             test_speed()
-        prettyPrintData()
+        
     elif index == 5:
         request_api_key()
 
